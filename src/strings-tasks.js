@@ -38,8 +38,8 @@ function getStringLength(value) {
  *   isString('test') => true
  *   isString(new String('test')) => true
  */
-function isString(value) {
-  return;
+function isString(/* value */) {
+  throw new Error('Not implemented');
 }
 
 /**
